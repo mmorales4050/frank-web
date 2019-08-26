@@ -13,9 +13,9 @@ export default class Navbar extends Component {
             name='SELLERS' onClick={this.props.handleClick} id="seller"
           />
           <Menu.Item
-            name='FAMILIES HELPED'
+            name='FAMILIES HELPED' onClick={this.props.handleClick} id="review"
           />
-          <Menu.Item name='CONTACT'/>
+          <Menu.Item name='CONTACT' id="contact"/>
         </Menu>
     )
   }

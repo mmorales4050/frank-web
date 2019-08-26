@@ -12,7 +12,7 @@ import ReviewPage from './components/ReviewPage';
 
 class App extends Component {
   state = {
-    page: "review"
+    page: "home"
   }
 
   handleClick = (e) => {
