@@ -7,9 +7,9 @@ class Review extends Component {
   render() {
     return (
       <List.Item>
-      <img src="review1.png" className="review-image"/>
+      <img src={this.props.image} className="review-image"/>
       <div className="review-text">
-      Frank was very reliable and on time. He was extremely knowledgeable about the entire Reston-Herndon area and I would recommend him to all my friends and family.
+      {this.props.text}
       </div>
       </List.Item>
     );
